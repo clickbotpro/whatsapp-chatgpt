@@ -1,6 +1,6 @@
 ## About PDF-Merger
 
-<img src="icon.png" />
+<img src="icon.png" width="128" height="128" />
 
 Use this bot with the [ClickbotPro app](https://clickbot.pro) in order to have a nice user interface. 
 After the start, this module will start replying to your contacts on your behalf using ChatGPT.
