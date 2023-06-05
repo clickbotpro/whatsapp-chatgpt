@@ -47,6 +47,8 @@ Thats it. ClickbotPro will continue working in the background and print all mess
 
 <img src="screenshot_3.jpg" width="716" height="481"/>
 
+<img src="screenshot_4.jpg" width="586" height="539"/>
+
 ## Other sources
 
 [ClickbotPro website](https://clickbot.pro)
