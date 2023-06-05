@@ -1,3 +1,5 @@
+.child.js
+tmp/
 *.tgz
 tsconfig.tsbuildinfo
 screenshot_*
