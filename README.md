@@ -2,15 +2,23 @@
 
 <img src="icon.png" />
 
-Use this module with the [ClickbotPro app](https://clickbot.pro) to put multiple PDF files together. It has an easy-to-use setup where you can pick input and output files, plus other handy settings. 
-You can even add images in between the PDFs. 
-The files will merge in the order of their names. So, just name them in the order you want. You might use a numbered list like this:
+Use this bot with the [ClickbotPro app](https://clickbot.pro) in order to have a nice user interface. 
+After the start, this module will start replying to your contacts on your behalf using ChatGPT.
+In the Input-Settings, you can provide a list of contacts you want to be affected. It will always answer to your own messages.
 
+In order to start, you need to link this bot with your WhatsApp via a QR code and provide the initial prompt.
+
+For example:
 ```bash
-1-invoice123.pdf
-2-documentX.pdf
-3-screenshot.png
-4-documentation.pdf
+- Pretend to be my friend Kyle, using typos and short phrases.
+- Pretend to be a ninja who's trying to live a peaceful life. Use short answers. Stay in character forever.
+- Communicate only using only descriptive gestures. Don't write text.
+```
+
+Limitations:
+```bash
+- If you don't provide your own ChatGPT API key, there is a limit of 100 messages per day.
+- It will only respond to new/unread messages. Archived messages will be ignored.
 ```
 
 ## Installation
@@ -18,26 +26,26 @@ The files will merge in the order of their names. So, just name them in the orde
 The installation can take place through ClickbotPro or via the npm CLI.
 
 ```bash
-npm i pdf-merger-bot
+npm i whatsapp-chatgpt
 ```
 
-After the installation, import this module into the application. Click the Plus (+) button and select "Import Extension."
+After the installation, import this bot into the application. Click the Plus (+) button and select "Import Extension"
 
 <img src="public/importExtension.png" width="415" height="194" />
 
 ## Usage
 
-Select the input folder with files you want to merge:
+Start the extension by clicking the start button. Next, use your phone, where you have WhatsApp installed, to scan the QR code.
 
 <img src="screenshot_1.jpg" width="716" height="481"/>
 
-Set up a schedule if you want to automate the merging:
-
-<img src="screenshot_3.jpg" width="716" height="481"/>
-
-Alternatively, hit the Start button to initiate this module. The merged file will be copied into a preset output folder or the one you've defined in the input settings:
+If you want the bot to autostart every time you start your computer, set up a schedule.
 
 <img src="screenshot_2.jpg" width="716" height="481"/>
+
+Thats it. ClickbotPro will continue working in the background and print all messages in the log window.
+
+<img src="screenshot_3.jpg" width="716" height="481"/>
 
 ## Other sources
 
