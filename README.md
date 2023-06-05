@@ -2,7 +2,7 @@
 
 <img src="icon.png" width="128" height="128" />
 
-Use the ClickbotPro app [ClickbotPro app](https://clickbot.pro) with this bot to have a user-friendly interface. Once you start it, the bot will reply to your contacts on your behalf using ChatGPT. In the Input-Settings, you can choose which contacts you want it to affect. It will always respond to your own messages.
+Use the [ClickbotPro app](https://clickbot.pro) with this bot to have a user-friendly interface. Once you start it, the bot will reply to your contacts on your behalf using ChatGPT. In the Input-Settings, you can choose which contacts you want it to affect. It will always respond to your own messages.
 
 To get started, you need to link this bot to your WhatsApp by scanning a QR code and providing the initial prompt.
 For example:
