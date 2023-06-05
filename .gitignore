@@ -1,3 +1,11 @@
+#clickbotpro related ignores
+.DS_Store
+tsconfig.tsbuildinfo
+tmp/
+.child.js
+logs/
+output/
+
 # Logs
 logs
 *.log
