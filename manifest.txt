@@ -4,17 +4,20 @@
             {
                 "id": "firstMessage",
                 "type": "text",
-                "desc": "[Optional] Initial message. Example: Pretend to be a my friend Kyle. Answer in less than 30 characters."
+                "desc": "[Optional] Initial message. Example: Pretend to be a my friend Kyle. Answer in less than 30 characters.",
+                "value": ""
             },
             {
                 "id": "contacts",
                 "type": "text",
-                "desc": "[Optional] List of contact names (comma separated). Leave this area empty for all contacts."
+                "desc": "[Optional] List of contact names (comma separated). Leave this area empty for all contacts.",
+                "value": ""
             },
             {
                 "id": "chatgpt_api_key",
                 "type": "text",
-                "desc": "[Optional] Custom ChatGPT API key you can obtain here: https://platform.openai.com"
+                "desc": "[Optional] Custom ChatGPT API key you can obtain here: https://platform.openai.com",
+                "value": ""
             }
         ]
     },
@@ -69,7 +72,7 @@
     "fulldesc": "Tired of responding to super long WhatsApp messages?\nThis bot allows ChatGPT to respond to all of your incoming WhatsApp messages on your behalf.\nSo sit back, relax, and enjoy the show :D\n\nAll you need to do is link this bot with your WhatsApp via a QR code and provide the initial prompt.\nFor example:\n- Pretend to be my friend Kyle, using typos and short phrases.\n- Pretend to be a ninja who's trying to live a peaceful life. Use short answers. Stay in character forever.\n- Communicate only using only descriptive gestures. Don't write text.\n\nLimitations:\n- It can only chat with one contact at a time. It won't chat with 1000 contacts simultaneously.\n- If you don't provide your own ChatGPT API key, there is a limit of 100 messages per day.\n- It will only respond to new/unread messages. Archived messages will be ignored.",
     "shortdesc": "This bot allows ChatGPT to respond to all of your incoming WhatsApp messages on your behalf.",
     "askForAccessebilityPermissions": false,
-    "installedTime": 1685973252796,
+    "installedTime": 0,
     "lastStartTime": 0,
     "exposeBrowser": true,
     "storageOrigin": [

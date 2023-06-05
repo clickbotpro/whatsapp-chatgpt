@@ -1,23 +1,23 @@
 {
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/clickbotpro/whatsapp-chatgpt.git"
-    },
-    "name": "whatsapp-chatgpt",
-    "version": "1.0.2",
-    "description": "Auto-reply to WhatsApp messages with ChatGPT",
-    "main": "js/index.js",
-    "scripts": {
-        "start": "node js/index.js"
-    },
-    "author": "ClickbotPro",
-    "license": "ISC",
-    "dependencies": {
-        "cbp-client": "git+https://github.com/clickbotpro/cbp-client.git",
-        "openai": "^3.2.1"
-    },
-    "devDependencies": {
-        "@types/node": "^18.15.10",
-        "typescript": "^4.8.2"
-    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clickbotpro/whatsapp-chatgpt.git"
+  },
+  "name": "whatsapp-chatgpt",
+  "version": "1.0.2",
+  "description": "Auto-reply to WhatsApp messages with ChatGPT",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "node js/index.js"
+  },
+  "author": "ClickbotPro",
+  "license": "ISC",
+  "dependencies": {
+    "cbp-client": "git+https://github.com/clickbotpro/cbp-client.git",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "typescript": "^4.8.2"
+  }
 }
