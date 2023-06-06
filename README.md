@@ -1,4 +1,4 @@
-## About PDF-Merger
+## About WhatsApp ChatGPT
 
 <img src="icon.png" width="128" height="128" />
 
