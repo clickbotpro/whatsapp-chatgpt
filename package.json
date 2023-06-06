@@ -4,7 +4,7 @@
     "url": "git+https://github.com/clickbotpro/whatsapp-chatgpt.git"
   },
   "name": "whatsapp-chatgpt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Auto-reply to WhatsApp messages with ChatGPT",
   "main": "js/index.js",
   "scripts": {
